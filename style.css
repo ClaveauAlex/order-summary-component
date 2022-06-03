@@ -92,22 +92,22 @@ body {
   font-size: 1.6rem;
 }
 
-button{
+button {
   font-size: 1.5rem;
   font-weight: 900;
 }
 
-.card{
+.card {
   background-color: #fff;
   border-radius: 2rem;
   width: 45rem;
 }
 
-.card img{
+.card img {
   border-radius: 2rem 2rem 0 0;
 }
 
-.content{
+.content {
   padding: 4.8rem;
   display: flex;
   justify-content: center;
@@ -116,14 +116,14 @@ button{
   text-align: center;
 }
 
-.content-title{
+.content-title {
   color: var(--colors-neutral-dark-blue);
   font-size: 2.8rem;
   font-weight: 900;
   margin-bottom: 1.7rem;
 }
 
-.content-text{
+.content-text {
   color: var(--colors-neutral-desaturated-blue);
   font-size: 1.6rem;
   font-weight: 500;
@@ -131,7 +131,7 @@ button{
   margin-bottom: 2.0rem;
 }
 
-.content-plan{
+.content-plan {
   align-items: center;
   background-color: var(--colors-neutral-very-pale-blue);
   border-radius: 1.1rem;
@@ -149,30 +149,31 @@ button{
   font-weight: 900;
 }
 
-.content-plan p{
+.content-plan p {
   color: var(--colors-neutral-desaturated-blue);
   font-weight: 500;
 }
 
-.content-plan a{
+.content-plan a {
+  color: var(--colors-primary-bright-blue);
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.content-plan-left{
+.content-plan-left {
   display: flex;
   align-items: center;
 }
 
-.content-plan-left img{
+.content-plan-left img {
   margin-right: 2rem;
 }
 
-.content-plan-text h2{
+.content-plan-text h2 {
   margin-bottom: 0.6rem;
 }
 
-.proceed-button{
+.proceed-button {
   border: none;
   border-radius: 1.1rem;
   background-color: var(--colors-primary-bright-blue);
@@ -183,9 +184,25 @@ button{
   padding: 1.5rem 9.2rem;
 }
 
-.cancel-button{
+.cancel-button {
   color: var(--colors-neutral-desaturated-blue);
   font-size: 1.5rem;
   font-weight: 900;
   text-decoration: none;
 }
+
+/* HOVER */
+
+.content-plan a:hover {
+  color: hsl(244, 83%, 68%);
+  text-decoration: none;
+}
+
+.proceed-button:hover {
+  background-color: hsl(244, 83%, 68%);
+}
+
+.cancel-button:hover {
+  color: var(--colors-neutral-dark-blue);
+}
+
