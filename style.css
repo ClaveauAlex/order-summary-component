@@ -1,14 +1,14 @@
 /* VARIABLES */
 
-:root{
-  --layout-mobile:375px;
+:root {
+  --layout-mobile: 375px;
   --layout-desktop: 1440px;
-  --colors-primary-pale-blue:hsl(225, 100%, 94%);
-  --colors-primary-bright-blue:hsl(245, 75%, 52%);
-  --colors-neutral-very-pale-blue:hsl(225, 100%, 98%);
-  --colors-neutral-desaturated-blue:hsl(224, 23%, 55%);
-  --colors-neutral-dark-blue:hsl(223, 47%, 23%);
-  --font-family:"Red Hat Display",sans-serif;
+  --colors-primary-pale-blue: hsl(225, 100%, 94%);
+  --colors-primary-bright-blue: hsl(245, 75%, 52%);
+  --colors-neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --colors-neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --colors-neutral-dark-blue: hsl(223, 47%, 23%);
+  --font-family: "Red Hat Display", sans-serif;
 }
 
 /* RULES RESET */
@@ -61,7 +61,7 @@ table {
   border-spacing: 0;
 }
 
-html{
+html {
   font-size: 62.5%; /* 10px for 1rem so, if you want 18px = 1.8rem */
 }
 
@@ -75,4 +75,14 @@ html{
 }
 
 /* PROJECT */
+
+html {
+  background: var(--colors-primary-pale-blue) url("./images/pattern-background-desktop.svg") no-repeat fixed top center;
+  background-size: contain;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+}
 
