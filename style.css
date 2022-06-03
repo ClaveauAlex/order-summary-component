@@ -1,5 +1,4 @@
 /* VARIABLES */
-
 :root {
   --layout-mobile: 375px;
   --layout-desktop: 1440px;
@@ -68,6 +67,7 @@ html {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .attribution a {
@@ -99,7 +99,7 @@ button{
 
 .card{
   background-color: #fff;
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-radius: 2rem;
   width: 45rem;
 }
 
@@ -107,11 +107,8 @@ button{
   border-radius: 2rem 2rem 0 0;
 }
 
-.card .content{
-  padding: 4.8rem;
-}
-
 .content{
+  padding: 4.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,14 +116,14 @@ button{
   text-align: center;
 }
 
-.title{
+.content-title{
   color: var(--colors-neutral-dark-blue);
   font-size: 2.8rem;
   font-weight: 900;
   margin-bottom: 1.7rem;
 }
 
-.main-text{
+.content-text{
   color: var(--colors-neutral-desaturated-blue);
   font-size: 1.6rem;
   font-weight: 500;
@@ -134,23 +131,45 @@ button{
   margin-bottom: 2.0rem;
 }
 
-.annual-plan{
+.content-plan{
+  align-items: center;
+  background-color: var(--colors-neutral-very-pale-blue);
+  border-radius: 1.1rem;
+  display: flex;
   font-size: 1.6rem;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+  line-height: 2.1rem;
+  padding: 2.5rem 2.4rem;
+  width: 100%;
 }
 
-.annual-plan h2 {
+.content-plan h2 {
   color: var(--colors-neutral-dark-blue);
   font-weight: 900;
 }
 
-.annual-plan p{
+.content-plan p{
+  color: var(--colors-neutral-desaturated-blue);
   font-weight: 500;
 }
 
-.annual-plan {
+.content-plan a{
   font-size: 1.4rem;
   font-weight: 700;
-  margin-bottom: 3.2rem;
+}
+
+.content-plan-left{
+  display: flex;
+  align-items: center;
+}
+
+.content-plan-left img{
+  margin-right: 2rem;
+}
+
+.content-plan-text h2{
+  margin-bottom: 0.6rem;
 }
 
 .proceed-button{
